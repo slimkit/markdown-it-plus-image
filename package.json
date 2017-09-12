@@ -2,6 +2,11 @@
   "name": "markdown-it-plus-image",
   "version": "1.0.0",
   "description": "ThnkSNS Plus image syntax plugin for markdown-it markdown parser.",
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown"
+  ],
   "main": "index.js",
   "repository": "https://github.com/slimkit/markdown-it-plus-image.git",
   "author": "Seven Du <shiweidu@outlook.com>",
