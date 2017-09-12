@@ -11,8 +11,8 @@ Syntax is `@![title](id)` tag.
 npm, yarn
 
 ```shell
-npm install markdown-it-plis-image --save
-yarn add markdown-it-plis-image
+npm install markdown-it-plus-image --save
+yarn add markdown-it-plus-image
 ```
 
 ## Use
