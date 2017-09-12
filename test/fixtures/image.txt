@@ -1,0 +1,8 @@
+## Plus image
+@![One](1)
+
+## Empty plus image
+@![One]()
+
+## Image
+![image](https://plus/image.png)

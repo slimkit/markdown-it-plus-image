@@ -4,9 +4,9 @@
  * ----------------------------------------------------
  */
 
-import { isSpace, normalizeReference } from 'markdown-it/lib/common/utils';
-
 export default basename => ((state, silent) => {
+
+  const { isSpace, normalizeReference } = state.md.utils;
 
   let attrs,      code,   content, label,     labelEnd,
       labelStart, pos,    ref,     res,       title,
@@ -119,6 +119,13 @@ export default basename => ((state, silent) => {
   // so all that's left to do is to call tokenizer.
   //
   if (!silent) {
+
+    if (! href) {
+      state.pos = oldPos;
+
+      return false;
+    }
+
     content = state.src.slice(labelStart, labelEnd);
 
     state.md.inline.parse(
