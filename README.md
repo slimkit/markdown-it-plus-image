@@ -21,7 +21,9 @@ yarn add markdown-it-plus-image
 import markdownIt from 'markdown-it';
 import plusImageSyntax from 'markdown-it-plus-image';
 
-const md = markdownIt().use(plusImageSyntax);
+const basename = 'https://plus.io/api/v2/files/';
+const md = markdownIt()
+    .use(plusImageSyntax, basename);
 
 md.render(/* ... */);
 
