@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-plus-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ThnkSNS Plus image syntax plugin for markdown-it markdown parser.",
   "keywords": [
     "markdown-it-plugin",
